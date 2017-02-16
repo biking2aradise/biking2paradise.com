@@ -1,1 +1,20 @@
 theme: jekyll-theme-cayman
+github: [metadata]
+ kramdown:
+   input: GFM
+   hard_wrap: false
+ gems:
+   - jekyll-coffeescript
+   - jekyll-paginate
+
+# Site settings
+title: Biking To Paradise
+email: charlie.chrisman@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Biking To Paradise
+# url: "http://biking2paradise.com"
+url: "https://biking2paradise.github.io/"
+baseurl: "biking2paradise.com"
+
+# Build settings
+markdown: kramdown
